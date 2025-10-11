@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "943215173298",
+    "project_id": "trekwise-final",
+    "storage_bucket": "trekwise-final.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943215173298:android:a128a4de1e2492c58673ab",
+        "android_client_info": {
+          "package_name": "com.example.trekwise"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdKwOXE2Kvltul75DycoNFj9VfymdhrrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
