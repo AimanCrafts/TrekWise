@@ -83,28 +83,28 @@ Save Route / Book Packages / View Weather Alerts
 
 ### Authentication
 <div style="display: flex; gap: 10px;">
-  <img src="images/login.png" alt="Log In" width="200"/>
-  <img src="images/create-account.png" alt="Create Account" width="200"/>
+  <img src="screenshots/login.png" alt="Log In" width="200"/>
+  <img src="screenshots/create-account.png" alt="Create Account" width="200"/>
 </div>
 
 ### Main Screens
 <div style="display: flex; gap: 10px;">
-  <img src="images/home.png" alt="Home Page" width="200"/>
-  <img src="images/route-comparison.png" alt="Route Comparison" width="200"/>
-  <img src="images/tour-package.png" alt="Tour Package" width="200"/>
+  <img src="screenshots/home.png" alt="Home Page" width="200"/>
+  <img src="screenshots/route-comparison.png" alt="Route Comparison" width="200"/>
+  <img src="screenshots/tour-package.png" alt="Tour Package" width="200"/>
 </div>
 
 ### Details & Info
 <div style="display: flex; gap: 10px;">
-  <img src="images/package-details.png" alt="Package Details" width="200"/>
-  <img src="images/tour-guide.png" alt="Tour Guide" width="200"/>
-  <img src="images/tour-guide-details.png" alt="Tour Guide Details" width="200"/>
+  <img src="screenshots/package-details.png" alt="Package Details" width="200"/>
+  <img src="screenshots/tour-guide.png" alt="Tour Guide" width="200"/>
+  <img src="screenshots/tour-guide-details.png" alt="Tour Guide Details" width="200"/>
 </div>
 
 ### Utilities & Settings
 <div style="display: flex; gap: 10px;">
-  <img src="images/weather.png" alt="Real-time Weather" width="200"/>
-  <img src="images/settings.png" alt="Settings" width="200"/>
+  <img src="screenshots/weather.png" alt="Real-time Weather" width="200"/>
+  <img src="screenshots/settings.png" alt="Settings" width="200"/>
 </div>
 
 ---
