@@ -67,29 +67,45 @@ Make sure you have the following installed:
 
 ## App Flow
 
-```mermaid
-flowchart TD
-    A[Home Screen] --> B[Destination Input]
-    B --> C[Route Suggestions (multi-modal)]
-    C --> D[Expense Tracker]
-    D --> E[Save Route / Book Packages / View Weather Alerts]
+Home Screen
+      ↓
+Destination Input
+      ↓
+Route Suggestions (multi-modal options)
+      ↓
+Expense Tracker
+      ↓
+Save Route / Book Packages / View Weather Alerts
 
 ---
 
 ## Screenshots
 
-| Figure | Description | Image |
-|--------|--------------|-------|
-| **Fig-1** | Log In | ![Log In](images/login.png) |
-| **Fig-2** | Create Account | ![Create Account](images/create-account.png) |
-| **Fig-3** | Home Page | ![Home Page](images/home.png) |
-| **Fig-4** | Route Comparison | ![Route Comparison](images/route-comparison.png) |
-| **Fig-5** | Tour Package | ![Tour Package](images/tour-package.png) |
-| **Fig-6** | Package Details | ![Package Details](images/package-details.png) |
-| **Fig-7** | Tour Guide | ![Tour Guide](images/tour-guide.png) |
-| **Fig-8** | Tour Guide Details | ![Tour Guide Details](images/tour-guide-details.png) |
-| **Fig-9** | Real-time Weather | ![Real-time Weather](images/weather.png) |
-| **Fig-10** | Settings | ![Settings](images/settings.png) |
+### Authentication
+<div style="display: flex; gap: 10px;">
+  <img src="images/login.png" alt="Log In" width="200"/>
+  <img src="images/create-account.png" alt="Create Account" width="200"/>
+</div>
+
+### Main Screens
+<div style="display: flex; gap: 10px;">
+  <img src="images/home.png" alt="Home Page" width="200"/>
+  <img src="images/route-comparison.png" alt="Route Comparison" width="200"/>
+  <img src="images/tour-package.png" alt="Tour Package" width="200"/>
+</div>
+
+### Details & Info
+<div style="display: flex; gap: 10px;">
+  <img src="images/package-details.png" alt="Package Details" width="200"/>
+  <img src="images/tour-guide.png" alt="Tour Guide" width="200"/>
+  <img src="images/tour-guide-details.png" alt="Tour Guide Details" width="200"/>
+</div>
+
+### Utilities & Settings
+<div style="display: flex; gap: 10px;">
+  <img src="images/weather.png" alt="Real-time Weather" width="200"/>
+  <img src="images/settings.png" alt="Settings" width="200"/>
+</div>
 
 ---
 
