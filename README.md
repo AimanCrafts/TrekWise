@@ -29,7 +29,7 @@ Optimized for regions like **Bangladesh**, where transportation systems are ofte
 | **Language** | Dart |
 | **Framework** | Flutter |
 | **Backend** | Firebase (Authentication, Firestore, Storage) |
-| **APIs Used** | OpenStreetMap API, OpenWeatherMap API |
+| **APIs Used** | OpenStreetMapRoute API, OpenWeatherMap API |
 | **IDE** | Android Studio / VS Code |
 | **Platform** | Android & iOS |
 
