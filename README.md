@@ -1,37 +1,45 @@
 # TrekWise
 
-A smart, cross-platform **travel planner** and **guide-finder app** built with **Flutter** and **Firebase**, designed to make travel in developing regions **safer**, **cheaper**, and **more efficient**.
+TrekWise is a smart, cross-platform **travel planner** and **guide-finder app** built with **Flutter** and **Firebase**, designed to help travelers in developing regions **plan safe, affordable, and efficient trips**.
 
 ---
 
 ## Overview
 
-**TrekWise** is an intelligent travel companion app that simplifies trip planning, route selection, and local guide discovery.  
-Optimized for regions like **Bangladesh**, where transportation systems are often fragmented, TrekWise integrates real-time travel data, verified guides, and cost estimation tools to create a **seamless, reliable, and budget-friendly** experience.
+**TrekWise** is a travel companion app that simplifies **trip planning**, **route selection**, and **local guide discovery**.  
+
+Optimized for regions like **Bangladesh**, where transport systems are fragmented, the app integrates:
+
+- **Real-time route data** to find the best travel options  
+- **Verified local guides and packages** for safe and authentic experiences  
+- **Travel cost estimations** to help users plan within their budget  
+- **Real-time weather updates and alerts** to ensure safe and informed travel  
+
+By combining these features, TrekWise provides a **seamless, reliable, and budget-friendly** travel experience for daily commuters, tourists, and budget-conscious travelers.
 
 ---
 
 ## Key Features
 
- **Smart Route Planning** — Compare travel options by fastest, cheapest, or most convenient routes.  
- **Expense Tracker** — Estimate trip costs and manage your travel budget easily.  
- **Verified Local Guides** — Connect with trusted, community-verified travel guides and authentic packages.  
- **Live Weather & Alerts** — Stay updated with real-time forecasts and travel advisories.  
- **Offline Route Access** — Save and view routes even without an internet connection.  
- **Cross-Platform Support** — Fully compatible with both Android and iOS devices.
+- **Smart Route Planning**               : Compare travel options — fastest, cheapest, or most convenient.  
+- **Expense Tracker**                    : Estimate trip costs and manage travel budgets.  
+- **Verified Local Guides & Packages**   : Connect with trusted, community-verified services.  
+- **Real-Time Weather & Alerts**         : Stay informed with live forecasts and travel advisories.  
+- **Offline Route Access**               : Save and view routes even without internet.  
+- **Cross-Platform Support**             : Fully compatible with Android and iOS.
 
 ---
 
 ## Tech Stack
 
-| Category | Technology |
-|-----------|-------------|
-| **Language** | Dart |
-| **Framework** | Flutter |
-| **Backend** | Firebase (Authentication, Firestore, Storage) |
-| **APIs Used** | OpenStreetMapRoute API, OpenWeatherMap API |
-| **IDE** | Android Studio / VS Code |
-| **Platform** | Android & iOS |
+| Category       | Technology |
+|----------------|------------|
+| **Language**   | Dart |
+| **Framework**  | Flutter |
+| **Backend**    | Firebase (Authentication, Firestore, Storage) |
+| **APIs**       | OpenStreetMapRoute API, OpenWeatherMap API |
+| **IDE**        | Android Studio / VS Code |
+| **Platform**   | Android & iOS |
 
 ---
 
@@ -39,11 +47,11 @@ Optimized for regions like **Bangladesh**, where transportation systems are ofte
 
 ### Prerequisites
 
-Make sure you have the following installed:
+Before running the app, ensure you have the following installed:
 
-- [Flutter SDK](https://flutter.dev/docs/get-started/install)
-- [Android Studio](https://developer.android.com/studio) or [VS Code](https://code.visualstudio.com/)
-- A connected Android device or emulator
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)  
+- [Android Studio](https://developer.android.com/studio) or [VS Code](https://code.visualstudio.com/)  
+- A connected **Android** or **iOS** device, or a compatible emulator
 
 ### Steps
 
@@ -67,71 +75,90 @@ Make sure you have the following installed:
 
 ## App Flow
 
-```mermaid
-flowchart TD
-    A[Home Screen] --> B[Destination Input]
-    B --> C[Route Suggestions (multi-modal)]
-    C --> D[Expense Tracker]
-    D --> E[Save Route / Book Packages / View Weather Alerts]
+```text
+Home Screen
+      ↓
+Destination Input
+      ↓
+Route Suggestions (multi-modal options)
+      ↓
+Expense Tracker
+      ↓
+Save Route / Book Packages / View Weather Alerts
+```
 
 ---
 
 ## Screenshots
 
-| Figure | Description | Image |
-|--------|--------------|-------|
-| **Fig-1** | Log In | ![Log In](images/login.png) |
-| **Fig-2** | Create Account | ![Create Account](images/create-account.png) |
-| **Fig-3** | Home Page | ![Home Page](images/home.png) |
-| **Fig-4** | Route Comparison | ![Route Comparison](images/route-comparison.png) |
-| **Fig-5** | Tour Package | ![Tour Package](images/tour-package.png) |
-| **Fig-6** | Package Details | ![Package Details](images/package-details.png) |
-| **Fig-7** | Tour Guide | ![Tour Guide](images/tour-guide.png) |
-| **Fig-8** | Tour Guide Details | ![Tour Guide Details](images/tour-guide-details.png) |
-| **Fig-9** | Real-time Weather | ![Real-time Weather](images/weather.png) |
-| **Fig-10** | Settings | ![Settings](images/settings.png) |
+### Authentication
+<div style="display: flex; gap: 10px;">
+  <img src="screenshots/login.png" alt="Log In" width="200"/>
+  <img src="screenshots/create-account.png" alt="Create Account" width="200"/>
+</div>
+
+### Main Screens
+<div style="display: flex; gap: 10px;">
+  <img src="screenshots/home.png" alt="Home Page" width="200"/>
+  <img src="screenshots/route-comparison.png" alt="Route Comparison" width="200"/>
+  <img src="screenshots/tour-package.png" alt="Tour Package" width="200"/>
+</div>
+
+### Details & Info
+<div style="display: flex; gap: 10px;">
+  <img src="screenshots/tour-package-details.png" alt="Package Details" width="200"/>
+  <img src="screenshots/tour-guide.png" alt="Tour Guide" width="200"/>
+  <img src="screenshots/tour-guide-details.png" alt="Tour Guide Details" width="200"/>
+</div>
+
+### Utilities & Settings
+<div style="display: flex; gap: 10px;">
+  <img src="screenshots/weather.png" alt="Real-time Weather" width="200"/>
+  <img src="screenshots/settings.png" alt="Settings" width="200"/>
+</div>
 
 ---
 
 ## Project Goals
 
-- Improve travel efficiency through smart route optimization.  
-- Encourage domestic tourism via verified local guides.  
-- Enable offline usability for low-connectivity areas.  
-- Promote safe and transparent travel experiences.  
+- Optimize travel efficiency with **smart route suggestions**.  
+- Promote **domestic tourism** through verified local guides.  
+- Enable **offline access** for low-connectivity areas.  
+- Ensure **safe and transparent** travel experiences for all users.  
 
 ---
 
 ## Challenges
 
-- Integrating multiple APIs (Maps, Weather, Guides).  
-- Optimizing app performance for Android and iOS.  
-- Designing an intuitive, modern UI for first-time users.  
-- Maintaining real-time updates in low-network environments.  
+- Integrating multiple APIs (**Maps, Weather, Guides**) seamlessly.  
+- Optimizing app performance across **Android and iOS**.  
+- Designing an **intuitive, modern UI** for first-time users.  
+- Maintaining **real-time updates** in low-network environments.  
 
 ---
 
 ## Future Enhancements
 
- **Multi-language Support** — Broaden accessibility across regions.  
- **Community Reviews & Tips** — Enable travelers to share insights and feedback.  
- **Transport Provider Integration** — Allow direct ticket and route bookings.  
- **AI-Powered Optimization** — Suggest routes and cost breakdowns based on user preferences.  
- **Regional Expansion** — Extend coverage to more developing regions facing similar challenges.  
+- **Multi-language Support** — Expand accessibility across regions.  
+- **Community Reviews & Tips** — Allow travelers to share insights and feedback.  
+- **Transport Provider Integration** — Enable direct ticket and package bookings.  
+- **AI-Powered Optimization** — Recommend routes and cost breakdowns intelligently.  
+- **Regional Expansion** — Extend coverage to more developing regions with similar transport challenges.  
 
 ---
 
 ## Team
 
-| Name | Role |
-|------|------|
-| **Abdur Rahman Aiman** | Lead Developer & UI Designer |
+| Name                    | Role                         |
+|-------------------------|-------------------------------|
+| **Abdur Rahman Aiman**  | Lead Developer & UI Designer |
 | **Munawar Mahtab Moon** | Backend Developer (Firebase) |
-| **Raisul Islam Sifat** | API Integration & Testing |
+| **Raisul Islam Sifat**  | API Integration & Testing    |
 
 ---
 
 ## License
 
 This project was developed as part of an academic group project.  
-You are free to explore, use, and modify it under the terms of the **MIT License**.
+It is licensed under the [MIT License](LICENSE), allowing you to explore, use, and modify the project freely.
+
