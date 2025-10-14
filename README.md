@@ -96,7 +96,7 @@ Save Route / Book Packages / View Weather Alerts
 
 ### Details & Info
 <div style="display: flex; gap: 10px;">
-  <img src="screenshots/package-details.png" alt="Package Details" width="200"/>
+  <img src="screenshots/tour-package-details.png" alt="Package Details" width="200"/>
   <img src="screenshots/tour-guide.png" alt="Tour Guide" width="200"/>
   <img src="screenshots/tour-guide-details.png" alt="Tour Guide Details" width="200"/>
 </div>
