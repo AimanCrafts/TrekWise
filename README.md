@@ -49,7 +49,7 @@ Make sure you have the following installed:
 
 1. **Clone this repository**
    ```bash
-   git clone https://github.com/YourUsername/TrekWise.git
+   git clone https://github.com/AimanCrafts/TrekWise.git
 
 2. **Navigate to the project folder**
    ```bash
@@ -65,8 +65,9 @@ Make sure you have the following installed:
 
 ---
 
-## App Flow
+## 🗺️ App Flow
 
+```text
 Home Screen
       ↓
 Destination Input
