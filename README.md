@@ -1,28 +1,28 @@
-# 🧭 TrekWise
+# TrekWise
 
 A smart, cross-platform **travel planner** and **guide-finder app** built with **Flutter** and **Firebase**, designed to make travel in developing regions **safer**, **cheaper**, and **more efficient**.
 
 ---
 
-## 📱 Overview
+## Overview
 
 **TrekWise** is an intelligent travel companion app that simplifies trip planning, route selection, and local guide discovery.  
 Optimized for regions like **Bangladesh**, where transportation systems are often fragmented, TrekWise integrates real-time travel data, verified guides, and cost estimation tools to create a **seamless, reliable, and budget-friendly** experience.
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-✅ **Smart Route Planning** — Compare travel options by fastest, cheapest, or most convenient routes.  
-💰 **Expense Tracker** — Estimate trip costs and manage your travel budget easily.  
-🧑‍🏫 **Verified Local Guides** — Connect with trusted, community-verified travel guides and authentic packages.  
-🌦️ **Live Weather & Alerts** — Stay updated with real-time forecasts and travel advisories.  
-📶 **Offline Route Access** — Save and view routes even without an internet connection.  
-📱 **Cross-Platform Support** — Fully compatible with both Android and iOS devices.
+ **Smart Route Planning** — Compare travel options by fastest, cheapest, or most convenient routes.  
+ **Expense Tracker** — Estimate trip costs and manage your travel budget easily.  
+ **Verified Local Guides** — Connect with trusted, community-verified travel guides and authentic packages.  
+ **Live Weather & Alerts** — Stay updated with real-time forecasts and travel advisories.  
+ **Offline Route Access** — Save and view routes even without an internet connection.  
+ **Cross-Platform Support** — Fully compatible with both Android and iOS devices.
 
 ---
 
-## 🧩 Tech Stack
+## Tech Stack
 
 | Category | Technology |
 |-----------|-------------|
@@ -35,7 +35,7 @@ Optimized for regions like **Bangladesh**, where transportation systems are ofte
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 
@@ -65,7 +65,7 @@ Make sure you have the following installed:
 
 ---
 
-## ⚙️ Installation & Setup
+## App Flow
 
 Home Screen
       ↓
@@ -79,13 +79,24 @@ Save Route / Book Packages / View Weather Alerts
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
-> _(Add your screenshots here — ideally 3–5 key screens like Home, Route Planner, Expense Tracker, and Guide Finder)_
+| Figure | Description | Image |
+|--------|--------------|-------|
+| **Fig-1** | Log In | ![Log In](images/login.png) |
+| **Fig-2** | Create Account | ![Create Account](images/create-account.png) |
+| **Fig-3** | Home Page | ![Home Page](images/home.png) |
+| **Fig-4** | Route Comparison | ![Route Comparison](images/route-comparison.png) |
+| **Fig-5** | Tour Package | ![Tour Package](images/tour-package.png) |
+| **Fig-6** | Package Details | ![Package Details](images/package-details.png) |
+| **Fig-7** | Tour Guide | ![Tour Guide](images/tour-guide.png) |
+| **Fig-8** | Tour Guide Details | ![Tour Guide Details](images/tour-guide-details.png) |
+| **Fig-9** | Real-time Weather | ![Real-time Weather](images/weather.png) |
+| **Fig-10** | Settings | ![Settings](images/settings.png) |
 
 ---
 
-## 🌍 Project Goals
+## Project Goals
 
 - Improve travel efficiency through smart route optimization.  
 - Encourage domestic tourism via verified local guides.  
@@ -94,7 +105,7 @@ Save Route / Book Packages / View Weather Alerts
 
 ---
 
-## 🧠 Challenges
+## Challenges
 
 - Integrating multiple APIs (Maps, Weather, Guides).  
 - Optimizing app performance for Android and iOS.  
@@ -103,27 +114,27 @@ Save Route / Book Packages / View Weather Alerts
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
-🌐 **Multi-language Support** — Broaden accessibility across regions.  
-🧭 **Community Reviews & Tips** — Enable travelers to share insights and feedback.  
-🚍 **Transport Provider Integration** — Allow direct ticket and route bookings.  
-🤖 **AI-Powered Optimization** — Suggest routes and cost breakdowns based on user preferences.  
-🌏 **Regional Expansion** — Extend coverage to more developing regions facing similar challenges.  
+ **Multi-language Support** — Broaden accessibility across regions.  
+ **Community Reviews & Tips** — Enable travelers to share insights and feedback.  
+ **Transport Provider Integration** — Allow direct ticket and route bookings.  
+ **AI-Powered Optimization** — Suggest routes and cost breakdowns based on user preferences.  
+ **Regional Expansion** — Extend coverage to more developing regions facing similar challenges.  
 
 ---
 
-## 👥 Team
+## Team
 
 | Name | Role |
 |------|------|
 | **Abdur Rahman Aiman** | Lead Developer & UI Designer |
-| **Raisul Islam Sifat** | Backend Developer (Firebase) |
-| **Munawar Mahtab Moon** | API Integration & Testing |
+| **Munawar Mahtab Moon** | Backend Developer (Firebase) |
+| **Raisul Islam Sifat** | API Integration & Testing |
 
 ---
 
-## 🪪 License
+## License
 
 This project was developed as part of an academic group project.  
 You are free to explore, use, and modify it under the terms of the **MIT License**.
