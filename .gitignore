@@ -23,6 +23,9 @@ linked_*.ds
 unlinked.ds
 unlinked_spec.ds
 
+# Keep pubspec.lock in the repo to lock dependency versions
+# pubspec.lock is NOT ignored
+
 # IDE / Editor
 # IntelliJ / Android Studio
 *.iml
