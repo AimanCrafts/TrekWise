@@ -101,6 +101,8 @@ ios/Runner/Google-Info.plist
 # Environment / Secrets
 .env
 *.env
+.env.*
+firebase-debug.log
 
 # Exceptions (force include)
 !**/ios/**/default.mode1v3
