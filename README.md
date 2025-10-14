@@ -65,18 +65,14 @@ Make sure you have the following installed:
 
 ---
 
-## 🗺️ App Flow
+## App Flow
 
-```text
-Home Screen
-      ↓
-Destination Input
-      ↓
-Route Suggestions (multi-modal options)
-      ↓
-Expense Tracker
-      ↓
-Save Route / Book Packages / View Weather Alerts
+```mermaid
+flowchart TD
+    A[Home Screen] --> B[Destination Input]
+    B --> C[Route Suggestions (multi-modal)]
+    C --> D[Expense Tracker]
+    D --> E[Save Route / Book Packages / View Weather Alerts]
 
 ---
 
