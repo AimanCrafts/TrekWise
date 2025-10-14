@@ -1,172 +1,129 @@
-# TrekWise
-A cross-platform Flutter app that helps users plan safe, affordable, and efficient travel routes with verified guides and real-time updates.
+# 🧭 TrekWise
 
-# 🌍 TrekWise – Smart Travel Planner & Guide Finder
-
-### 🚀 Developed by:
-**Abdur Rahman Aiman**, **Raisul Islam Sifat**, **Munawar Mahtab Moon**
+A smart, cross-platform **travel planner** and **guide-finder app** built with **Flutter** and **Firebase**, designed to make travel in developing regions **safer**, **cheaper**, and **more efficient**.
 
 ---
 
-## 🧭 Introduction
-Travel in developing regions such as **Bangladesh** is often challenging due to fragmented transport systems, lack of centralized information, and unpredictable disruptions.  
-**TrekWise** is a smart mobile application designed to address these issues by providing **safe**, **budget-friendly**, and **efficient** travel planning.  
+## 📱 Overview
 
-The app integrates real-time route data, cost estimates, and verified travel guides — ensuring that users can plan smarter and travel with confidence.
-
----
-
-## 🎯 Objectives
-- Develop a **cross-platform** mobile app for smart travel planning.  
-- Provide **affordable and reliable** travel solutions for students, commuters, and budget travelers.  
-- Integrate **multi-modal transport options** (bus, train, ferry, car) into one platform.  
-- Ensure safety through **verified local guides** and **real-time weather alerts**.  
-- Promote **domestic tourism** and empower travelers with confidence and accessibility.
+**TrekWise** is an intelligent travel companion app that simplifies trip planning, route selection, and local guide discovery.  
+Optimized for regions like **Bangladesh**, where transportation systems are often fragmented, TrekWise integrates real-time travel data, verified guides, and cost estimation tools to create a **seamless, reliable, and budget-friendly** experience.
 
 ---
 
-## 🛠️ Approach
+## 🚀 Key Features
 
-| Component | Details |
-|------------|----------|
-| **Programming Language** | Dart |
+✅ **Smart Route Planning** — Compare travel options by fastest, cheapest, or most convenient routes.  
+💰 **Expense Tracker** — Estimate trip costs and manage your travel budget easily.  
+🧑‍🏫 **Verified Local Guides** — Connect with trusted, community-verified travel guides and authentic packages.  
+🌦️ **Live Weather & Alerts** — Stay updated with real-time forecasts and travel advisories.  
+📶 **Offline Route Access** — Save and view routes even without an internet connection.  
+📱 **Cross-Platform Support** — Fully compatible with both Android and iOS devices.
+
+---
+
+## 🧩 Tech Stack
+
+| Category | Technology |
+|-----------|-------------|
+| **Language** | Dart |
+| **Framework** | Flutter |
+| **Backend** | Firebase (Authentication, Firestore, Storage) |
+| **APIs Used** | OpenStreetMap API, OpenWeatherMap API |
 | **IDE** | Android Studio / VS Code |
-| **Frontend Framework** | Flutter |
-| **Backend & Auth** | Firebase |
-| **APIs Used** | Open Street Route Map (for route planning), OpenWeatherMap (for weather updates) |
-| **Supported Platforms** | Android, iOS (cross-platform) |
+| **Platform** | Android & iOS |
 
 ---
 
-## 🎨 Design Overview
+## ⚙️ Installation & Setup
 
-### Tools & Frameworks
-- **Flutter (Dart):** Cross-platform UI & high performance  
-- **Firebase:** Authentication, real-time database, cloud storage  
-- **Open Street Route Map API:** Smart route planning & travel suggestions  
-- **OpenWeatherMap API:** Real-time weather updates & alerts  
+### Prerequisites
 
----
+Make sure you have the following installed:
 
-## 🧩 Flowchart
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- [Android Studio](https://developer.android.com/studio) or [VS Code](https://code.visualstudio.com/)
+- A connected Android device or emulator
 
----
+### Steps
 
+1. **Clone this repository**
+   ```bash
+   git clone https://github.com/YourUsername/TrekWise.git
 
----
+2. **Navigate to the project folder**
+   ```bash
+   cd TrekWise
 
-## ✨ Features
+3. **Get the dependencies**
+   ```bash
+   flutter pub get
 
-| Feature | Description |
-|----------|--------------|
-| **Smart Routes** | Compare travel options – fastest, cheapest, or most convenient |
-| **Expense Tracker** | Estimate total travel cost before your trip |
-| **Verified Local Guides & Packages** | Safe, rated, and authentic services |
-| **Real-time Weather Alerts** | Stay informed about weather changes and disruptions |
-| **Offline Route Saving** | Access saved plans without an internet connection |
-
----
-
-## 📱 Output (Screens & UI)
-
-**App Screenshots:**
-
-- **Fig-1:** Log In  
-- **Fig-2:** Home Page  
-- **Fig-3:** Route Comparison  
-- **Fig-4:** Tour Package  
-- **Fig-5:** Package Details  
-- **Fig-6:** Tour Guide  
-- **Fig-7:** Guide Details  
-- **Fig-8:** Real-time Weather  
-- **Fig-9:** Settings  
-
-*(Screenshots folder can be added in `/assets/screenshots` in the repo.)*
+4. **Run the app**
+   ```bash
+   flutter run
 
 ---
 
-## 🌱 Carbon Emission Analysis
+## ⚙️ Installation & Setup
 
-### 1️⃣ Project Overview
-- **Lines of Code (LOC):** ~10,000 (Dart)  
-- **Packages Used:** ~40 (from pubspec.yaml)  
-- **Development Duration:** 2.5 months  
-- **Team Size:** 3 developers  
-
-### 2️⃣ Development Carbon Footprint
-| Category | Energy (kWh) | CO₂ Emissions (kg) |
-|-----------|---------------|--------------------|
-| Workstation Usage | 40.5 | 19.24 |
-| Emulator Usage | 22.5 | 10.69 |
-| **Total (Development)** | **63.0** | **~30 kg CO₂** |
-
-### 3️⃣ Deployment & Hosting Footprint
-| Category | Energy (kWh/year) | CO₂ Emissions (kg/year) |
-|-----------|--------------------|--------------------------|
-| Firebase Hosting | 60 | 28.5 |
-
-### 🌍 **Total Carbon Footprint:** ≈ **59 kg CO₂**
-
-**Observations:**
-- Emulator usage increases development emissions by ~35%.  
-- Hosting contributes ~49% of total footprint.  
-- Optimizing asset sizes & caching can reduce bandwidth-related emissions.
+Home Screen
+      ↓
+Destination Input
+      ↓
+Route Suggestions (multi-modal options)
+      ↓
+Expense Tracker
+      ↓
+Save Route / Book Packages / View Weather Alerts
 
 ---
 
-## 💬 Discussion
+## 🖼️ Screenshots
 
-### 🔍 Interpretation
-TrekWise proves that a travel app can combine **cost efficiency**, **safety**, and **accessibility** in fragmented transport regions. It supports students, commuters, and tourists alike.
-
-### ⚙️ Challenges Faced
-- Integrating multiple APIs (Open Street Route Map, OpenWeatherMap)  
-- Cross-platform performance optimization  
-- UI design for first-time users  
-- Handling real-time updates in low connectivity  
-- Ensuring user data privacy  
-
-### 📊 Observations
-- Travelers prioritize **cost transparency** and **safety**.  
-- **Offline route saving** is critical in low-network areas.  
-- Verified guides add trust and credibility.  
-- Firebase simplified backend setup but required stable connectivity.
+> _(Add your screenshots here — ideally 3–5 key screens like Home, Route Planner, Expense Tracker, and Guide Finder)_
 
 ---
 
-## 🏁 Conclusion
+## 🌍 Project Goals
 
-### ✅ Summary
-TrekWise integrates **smart routing**, **expense tracking**, **verified guides**, and **real-time alerts** into one intuitive app. It effectively addresses fragmented transport systems while promoting **safe** and **affordable** travel.
-
-### 🔮 Future Improvements
-- 🌐 Add **multi-language support** for global users  
-- 🧭 Introduce **community-driven reviews & tips**  
-- 🚍 Partner with **transport providers** for direct booking  
-- 🤖 Use **AI-based route optimization**  
-- 🌏 Expand to international regions with similar transport challenges  
+- Improve travel efficiency through smart route optimization.  
+- Encourage domestic tourism via verified local guides.  
+- Enable offline usability for low-connectivity areas.  
+- Promote safe and transparent travel experiences.  
 
 ---
 
-## 📘 License
-This project is developed as part of a **University Group Project** and is intended for educational and research purposes.
+## 🧠 Challenges
+
+- Integrating multiple APIs (Maps, Weather, Guides).  
+- Optimizing app performance for Android and iOS.  
+- Designing an intuitive, modern UI for first-time users.  
+- Maintaining real-time updates in low-network environments.  
 
 ---
 
-## 👥 Contributors
+## 🔮 Future Enhancements
+
+🌐 **Multi-language Support** — Broaden accessibility across regions.  
+🧭 **Community Reviews & Tips** — Enable travelers to share insights and feedback.  
+🚍 **Transport Provider Integration** — Allow direct ticket and route bookings.  
+🤖 **AI-Powered Optimization** — Suggest routes and cost breakdowns based on user preferences.  
+🌏 **Regional Expansion** — Extend coverage to more developing regions facing similar challenges.  
+
+---
+
+## 👥 Team
+
 | Name | Role |
 |------|------|
-| **Abdur Rahman Aiman** | Lead Developer, UI/UX Design |
-| **Raisul Islam Sifat** | Backend Developer, Firebase Integration |
-| **Munawar Mahtab Moon** | API Integration, Testing & Documentation |
+| **Abdur Rahman Aiman** | Lead Developer & UI Designer |
+| **Raisul Islam Sifat** | Backend Developer (Firebase) |
+| **Munawar Mahtab Moon** | API Integration & Testing |
 
 ---
 
-## 💌 Contact
-For queries or collaboration:  
-📧 **aiman.projects@gmail.com** *(example — replace with your preferred contact)*  
-📦 GitHub: [@AimanCrafts](https://github.com/AimanCrafts)
+## 🪪 License
 
----
-
-> *“Travel made smarter, safer, and simpler — with TrekWise.”*
+This project was developed as part of an academic group project.  
+You are free to explore, use, and modify it under the terms of the **MIT License**.
