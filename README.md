@@ -91,31 +91,86 @@ Save Route / Book Packages / View Weather Alerts
 
 ## Screenshots
 
-### Authentication
-<div style="display: flex; gap: 10px;">
-  <img src="screenshots/login.png" alt="Log In" width="200"/>
-  <img src="screenshots/create-account.png" alt="Create Account" width="200"/>
+<div align="center">
+<h3 style="font-weight:bold; margin-bottom:15px;">Authentication</h3>
+<table border="0" cellspacing="0" cellpadding="15">
+  <tr>
+    <th>Log In</th>
+    <th>Create Account</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="screenshots/login.png" width="250" alt="Log In">
+    </td>
+    <td align="center">
+      <img src="screenshots/create-account.png" width="250" alt="Create Account">
+    </td>
+  </tr>
+</table>
 </div>
 
-### Main Screens
-<div style="display: flex; gap: 10px;">
-  <img src="screenshots/home.png" alt="Home Page" width="200"/>
-  <img src="screenshots/route-comparison.png" alt="Route Comparison" width="200"/>
-  <img src="screenshots/tour-package.png" alt="Tour Package" width="200"/>
+<div align="center">
+<h3 style="font-weight:bold; margin-bottom:15px;">Main Screens</h3>
+<table border="0" cellspacing="0" cellpadding="15">
+  <tr>
+    <th>Home Page</th>
+    <th>Route Comparison</th>
+    <th>Tour Package</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="screenshots/home.png" width="250" alt="Home Page">
+    </td>
+    <td align="center">
+      <img src="screenshots/route-comparison.png" width="250" alt="Route Comparison">
+    </td>
+    <td align="center">
+      <img src="screenshots/tour-package.png" width="250" alt="Tour Package">
+    </td>
+  </tr>
+</table>
 </div>
 
-### Details & Info
-<div style="display: flex; gap: 10px;">
-  <img src="screenshots/tour-package-details.png" alt="Package Details" width="200"/>
-  <img src="screenshots/tour-guide.png" alt="Tour Guide" width="200"/>
-  <img src="screenshots/tour-guide-details.png" alt="Tour Guide Details" width="200"/>
+<div align="center">
+<h3 style="font-weight:bold; margin-bottom:15px;">Details & Info</h3>
+<table border="0" cellspacing="0" cellpadding="15">
+  <tr>
+    <th>Package Details</th>
+    <th>Tour Guide</th>
+    <th>Tour Guide Details</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="screenshots/tour-package-details.png" width="250" alt="Package Details">
+    </td>
+    <td align="center">
+      <img src="screenshots/tour-guide.png" width="250" alt="Tour Guide">
+    </td>
+    <td align="center">
+      <img src="screenshots/tour-guide-details.png" width="250" alt="Tour Guide Details">
+    </td>
+  </tr>
+</table>
 </div>
 
-### Utilities & Settings
-<div style="display: flex; gap: 10px;">
-  <img src="screenshots/weather.png" alt="Real-time Weather" width="200"/>
-  <img src="screenshots/settings.png" alt="Settings" width="200"/>
+<div align="center">
+<h3 style="font-weight:bold; margin-bottom:15px;">Utilities & Settings</h3>
+<table border="0" cellspacing="0" cellpadding="15">
+  <tr>
+    <th>Real-time Weather</th>
+    <th>Settings</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="screenshots/weather.png" width="250" alt="Real-time Weather">
+    </td>
+    <td align="center">
+      <img src="screenshots/settings.png" width="250" alt="Settings">
+    </td>
+  </tr>
+</table>
 </div>
+
 
 ---
 
