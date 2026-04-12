@@ -214,5 +214,5 @@ Save Route / Book Packages / View Weather Alerts
 
 ## License
 
-It is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
 
